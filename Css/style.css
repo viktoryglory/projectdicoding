@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fcecec;
+  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.logo h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  margin-right: 100px;
+}
+
+.navbar li {
+  margin-right: 20px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  font-weight: 500;
+  color: blue;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  margin: 4px 0;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mobile-menu li {
+  margin: 15px 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+}
+
+/* Home */
+.Home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  color: black;
+}
+
+.content h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  line-height: 70px;
+}
+
+.content h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: 252525;
+}
+
+.sidebar {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/* feature  */
+.Feature {
+  justify-content: center;
+  align-items: center;
+  height: 811px;
+}
+.head {
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.head p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  color: #9d9d9d;
+  text-align: right;
+}
+
+.head h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  color: black;
+  text-align: center;
+}
+
+.section1 {
+  font-family: A "Poppins", sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-inline: auto;
+}
+
+.feature {
+  display: flex;
+  flex-flow: column;
+  flex: 0 1 300px;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  width: 372px;
+  height: 400px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.feature > img {
+  order: -1;
+  align-self: center;
+  transform: scale(1.01);
+  object-fit: cover;
+  object-position: top;
+}
+.feature h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.feature p {
+  margin-block: 0.5rem;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.feature > button {
+  margin-top: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: blue;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* About us */
+.About {
+  height: 600px;
+}
+.About h1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.kurung {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.image img {
+  max-width: 200%;
+  height: auto;
+  max-height: 300px;
+}
+
+.description {
+  width: 60%;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  padding: 10px 5px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+/* Contact */
+.Contact h1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.Me {
+  justify-content: center;
+  align-items: center;
+}
+
+.Me {
+  font-family: A "Poppins", sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-inline: auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.me {
+  display: flex;
+  flex-flow: column;
+  flex: 0 1 300px;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  width: 500px;
+  height: auto;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.me > img {
+  order: -1;
+  align-self: center;
+  transform: scale(1.01);
+  object-fit: cover;
+  object-position: top;
+}
+.me h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.me h4 {
+  font-family: "Poppins", sans-serif;
+}
+
+.me p {
+  margin-block: 0.5rem;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* foter */
+footer {
+  background-color: #d0ebff;
+  color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-logo img {
+  max-width: 100px;
+}
+
+.footer-logo p {
+  margin-top: 10px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.contact-item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .Home {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .sidebar {
+    order: -1;
+    margin-top: 20px;
+  }
+
+  .kurung {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image {
+    order: -1;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .contact-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: block;
+    text-align: center;
+    background-color: #fcecec;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+  }
+}
